@@ -1,0 +1,64 @@
+set nocompatible
+
+set laststatus=2
+
+set nostartofline
+
+set hlsearch
+
+set tabstop=4
+
+set selection=exclusive
+
+"set autoindent
+
+set expandtab
+
+set backspace=indent,eol,start
+
+nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
+
+"set statusline=%F%m%r%h%w\
+
+set wildmode=longest,list
+
+colorscheme murphy
+
+"torte or look at /usr/share/vim/vim76/colors
+
+syntax on
+
+set t_kb=^?
+
+"set mouse=a
+
+map <F6> :! bk edit %<CR>
+
+map <F9> :set nu!<CR>
+
+map <F12> :set ic <CR>
+
+map <F11> :set nowrap <CR>
+
+au BufNewFile,BufRead *.v,*.vr,*.vf,*.vm,*.vg,*.fr,*.vs,*.hier,*.sig,*.chf set ft=verilog etÂ|
+
+set ic
+
+"map! ^? ^H
+
+""""""""Added by Sam
+
+set cmdheight=2
+
+set number
+
+set ignorecase
+
+set smartcase
+
+set ruler
+
+fixdel
+
+inoremap <Char-0x07F> <BS>
+nnoremap <Char-0x07F> <BS>

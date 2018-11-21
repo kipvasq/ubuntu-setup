@@ -1,0 +1,8 @@
+# ROS BASHRC
+source /opt/ros/kinetic/setup.sh
+source /home/autodrive/Desktop/catkin_ws/install/setup.bash
+source /home/autodrive/Desktop/catkin_ws/devel/setup.bash
+source /home/autodrive/Desktop/catkin_ws/install/setup.bash
+
+
+
